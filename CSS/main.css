@@ -1,0 +1,66 @@
+
+   * {
+        box-sizing: border-box;
+        font-family: cursive;
+}
+
+body {
+    text-align: center;
+    background-image: url("../img/paper.png");
+    
+    
+}
+table{
+   margin: auto;
+
+}
+.cell {
+    text-align: center;
+    background-color: gray;
+    width: 40px;
+    height: 40px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;}
+div{
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+.time{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.smiley{
+    background-color: rgb(166, 167, 164);
+    margin: 0 50px;
+}
+.uncover{
+    background-color: rgb(187, 186, 186);
+
+}
+
+
+.Container{
+    background-color: rgb(218, 153, 14);
+    width: 100%;
+
+    
+}
+button{
+    display:inline-flexbox;
+    background-color: gray;
+    margin-inline-start: 10px;
+    border-radius: 10px;
+
+}
+.hint{
+    height: 50px;
+    width: 80px;
+    border-radius: 10px;
+    margin-left: 110px;
+    background-color: rgb(241, 229, 175);
+    
+}
+
+

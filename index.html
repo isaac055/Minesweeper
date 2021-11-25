@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- <img src="img/paper.jpg"> -->
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Sprint1</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='CSS/main.css'>
+</head>
+
+<body onload="startGame()">
+    
+    <h1>Minesweeper</h1>
+    <div class="Container">
+        <button onclick="setLevel(0)">Beginner(4*4)</button><button onclick="setLevel(1)">Medium(8*8)</button><button
+            onclick="setLevel(2)">Expert(12*12)</button>
+        <div><span class="life"></span><button class="smiley" onclick="startGame() "></button><span
+                class="time">000</span>
+        </div>
+    </div>
+    <table>
+        <tbody class="board"></tbody>
+    </table>
+    <div class="co2">
+        <button class="hint" onclick="hintOn(this) "></button>
+        <button class="hint" onclick="">↪️undo</button>
+    </div>
+
+    <script src='JS/main.js'></script>
+    <script src='JS/util.js'></script>
+</body>
+
+</html>
